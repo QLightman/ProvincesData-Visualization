@@ -1,4 +1,4 @@
-# Rearrangement
+# ProvincesData-Visualization
 Visualization program built on [node.js](https://nodejs.org/en/) [express](http://expressjs.com/) for provinces data for user exploration.
 
 ## Installation
