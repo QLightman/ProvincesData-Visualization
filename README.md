@@ -1,5 +1,6 @@
 # ProvincesData-Visualization
 Visualization program built on [node.js](https://nodejs.org/en/) [express](http://expressjs.com/) for provinces data for user exploration.
+![Layout](https://github.com/QLightman/ProvincesData-Visualization/blob/master/demo.jpg)
 ![Layout](https://github.com/QLightman/ProvincesData-Visualization/blob/master/demo.gif)
 ## Installation
 ```
