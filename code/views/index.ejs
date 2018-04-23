@@ -4,19 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Rearrangement</title>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
-    <link rel="stylesheet" href="/stylesheets/main.css">
+    <link rel="stylesheet" href="stylesheets/chosen.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/main.css">
 
-    <script src="lib/d3.min.js"></script>
+    <script src="lib/d3.v3.min.js"></script>
     <script src="lib/jquery.min.js"></script>
     <script src="lib/chosen.jquery.js"></script>
     <script src="lib/bootstrap.min.js"></script>
     <script src="lib/underscore-min.js"></script>
+    <script src="lib/chosen.jquery.min.js"></script>
 
 </head>
 
 <body>
     <div id=top_div class="outer-div">
+        <div id="view1_select" class="block-div">
+            <center>
+                <select id="year_select">
+                            </select>
+            </center>
+        </div>
         <div id="view1" class="block-div">
 
         </div>
@@ -28,12 +36,21 @@
             </div>
         </div>
         <div id="bottom_right_div" class="outer-div">
+            <div id="view3_select" class="block-div">
+                <center>
+                    <select id="property_select">
+                        </select>
+                </center>
+            </div>
             <div id="view3" class="block-div">
 
             </div>
         </div>
     </div>
-    <!-- <script src="/javascripts/initial.js"></script> -->
+    <script src="javascripts/draw_view1.js"></script>
+    <script src="javascripts/draw_view2.js"></script>
+    <script src="javascripts/draw_view3.js"></script>
+    <script src="javascripts/initial.js"></script>
 
 </body>
 
